@@ -19,10 +19,10 @@
 		43A7021A1868E21900E39CBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A702021868E21800E39CBE /* UIKit.framework */; };
 		43A702221868E21900E39CBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43A702201868E21900E39CBE /* InfoPlist.strings */; };
 		43A702241868E21900E39CBE /* ResplendentNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A702231868E21900E39CBE /* ResplendentNetworkingTests.m */; };
-		43A702391868E2A500E39CBE /* RUJsonRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A702311868E2A500E39CBE /* RUJsonRequest.m */; };
-		43A7023A1868E2A500E39CBE /* RUNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A702331868E2A500E39CBE /* RUNetworkRequest.m */; };
-		43A7023B1868E2A500E39CBE /* RUNetworkDictionaryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A702361868E2A500E39CBE /* RUNetworkDictionaryResponse.m */; };
-		43A7023C1868E2A500E39CBE /* RUNetworkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A702381868E2A500E39CBE /* RUNetworkResponse.m */; };
+		43A702391868E2A500E39CBE /* RNJsonRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A702311868E2A500E39CBE /* RNJsonRequest.m */; };
+		43A7023A1868E2A500E39CBE /* RNNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A702331868E2A500E39CBE /* RNNetworkRequest.m */; };
+		43A7023B1868E2A500E39CBE /* RNNetworkDictionaryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A702361868E2A500E39CBE /* RNNetworkDictionaryResponse.m */; };
+		43A7023C1868E2A500E39CBE /* RNNetworkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A702381868E2A500E39CBE /* RNNetworkResponse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,14 +52,14 @@
 		43A7021F1868E21900E39CBE /* ResplendentNetworkingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResplendentNetworkingTests-Info.plist"; sourceTree = "<group>"; };
 		43A702211868E21900E39CBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		43A702231868E21900E39CBE /* ResplendentNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResplendentNetworkingTests.m; sourceTree = "<group>"; };
-		43A702301868E2A500E39CBE /* RUJsonRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUJsonRequest.h; sourceTree = "<group>"; };
-		43A702311868E2A500E39CBE /* RUJsonRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUJsonRequest.m; sourceTree = "<group>"; };
-		43A702321868E2A500E39CBE /* RUNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUNetworkRequest.h; sourceTree = "<group>"; };
-		43A702331868E2A500E39CBE /* RUNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUNetworkRequest.m; sourceTree = "<group>"; };
-		43A702351868E2A500E39CBE /* RUNetworkDictionaryResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUNetworkDictionaryResponse.h; sourceTree = "<group>"; };
-		43A702361868E2A500E39CBE /* RUNetworkDictionaryResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUNetworkDictionaryResponse.m; sourceTree = "<group>"; };
-		43A702371868E2A500E39CBE /* RUNetworkResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUNetworkResponse.h; sourceTree = "<group>"; };
-		43A702381868E2A500E39CBE /* RUNetworkResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUNetworkResponse.m; sourceTree = "<group>"; };
+		43A702301868E2A500E39CBE /* RNJsonRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNJsonRequest.h; sourceTree = "<group>"; };
+		43A702311868E2A500E39CBE /* RNJsonRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNJsonRequest.m; sourceTree = "<group>"; };
+		43A702321868E2A500E39CBE /* RNNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNetworkRequest.h; sourceTree = "<group>"; };
+		43A702331868E2A500E39CBE /* RNNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNetworkRequest.m; sourceTree = "<group>"; };
+		43A702351868E2A500E39CBE /* RNNetworkDictionaryResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNetworkDictionaryResponse.h; sourceTree = "<group>"; };
+		43A702361868E2A500E39CBE /* RNNetworkDictionaryResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNetworkDictionaryResponse.m; sourceTree = "<group>"; };
+		43A702371868E2A500E39CBE /* RNNetworkResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNetworkResponse.h; sourceTree = "<group>"; };
+		43A702381868E2A500E39CBE /* RNNetworkResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNetworkResponse.m; sourceTree = "<group>"; };
 		43A7023F1868E3D900E39CBE /* RUConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUConstants.h; sourceTree = "<group>"; };
 		43A702401868E3D900E39CBE /* RUDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUDebug.h; sourceTree = "<group>"; };
 		43A702411868E3D900E39CBE /* RUDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUDLog.h; sourceTree = "<group>"; };
@@ -181,10 +181,10 @@
 		43A7022F1868E2A500E39CBE /* Request */ = {
 			isa = PBXGroup;
 			children = (
-				43A702301868E2A500E39CBE /* RUJsonRequest.h */,
-				43A702311868E2A500E39CBE /* RUJsonRequest.m */,
-				43A702321868E2A500E39CBE /* RUNetworkRequest.h */,
-				43A702331868E2A500E39CBE /* RUNetworkRequest.m */,
+				43A702301868E2A500E39CBE /* RNJsonRequest.h */,
+				43A702311868E2A500E39CBE /* RNJsonRequest.m */,
+				43A702321868E2A500E39CBE /* RNNetworkRequest.h */,
+				43A702331868E2A500E39CBE /* RNNetworkRequest.m */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -192,10 +192,10 @@
 		43A702341868E2A500E39CBE /* Response */ = {
 			isa = PBXGroup;
 			children = (
-				43A702351868E2A500E39CBE /* RUNetworkDictionaryResponse.h */,
-				43A702361868E2A500E39CBE /* RUNetworkDictionaryResponse.m */,
-				43A702371868E2A500E39CBE /* RUNetworkResponse.h */,
-				43A702381868E2A500E39CBE /* RUNetworkResponse.m */,
+				43A702351868E2A500E39CBE /* RNNetworkDictionaryResponse.h */,
+				43A702361868E2A500E39CBE /* RNNetworkDictionaryResponse.m */,
+				43A702371868E2A500E39CBE /* RNNetworkResponse.h */,
+				43A702381868E2A500E39CBE /* RNNetworkResponse.m */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -314,12 +314,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43A7023B1868E2A500E39CBE /* RUNetworkDictionaryResponse.m in Sources */,
+				43A7023B1868E2A500E39CBE /* RNNetworkDictionaryResponse.m in Sources */,
 				43A7020F1868E21800E39CBE /* RNAppDelegate.m in Sources */,
 				43A7020B1868E21800E39CBE /* main.m in Sources */,
-				43A702391868E2A500E39CBE /* RUJsonRequest.m in Sources */,
-				43A7023C1868E2A500E39CBE /* RUNetworkResponse.m in Sources */,
-				43A7023A1868E2A500E39CBE /* RUNetworkRequest.m in Sources */,
+				43A702391868E2A500E39CBE /* RNJsonRequest.m in Sources */,
+				43A7023C1868E2A500E39CBE /* RNNetworkResponse.m in Sources */,
+				43A7023A1868E2A500E39CBE /* RNNetworkRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

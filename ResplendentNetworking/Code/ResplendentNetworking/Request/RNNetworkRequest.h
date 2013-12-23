@@ -1,5 +1,5 @@
 //
-//  RURequest.h
+//  RNNetworkRequest.h
 //  Pineapple
 //
 //  Created by Benjamin Maer on 4/14/13.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface RUNetworkRequest : NSObject <NSURLConnectionDataDelegate>
+@interface RNNetworkRequest : NSObject <NSURLConnectionDataDelegate>
 {
     NSURLConnection* _connection;
     NSMutableData* _data;

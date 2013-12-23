@@ -1,15 +1,20 @@
 //
-//  RURequest.m
+//  RNNetworkRequest.m
 //  Pineapple
 //
 //  Created by Benjamin Maer on 4/14/13.
 //  Copyright (c) 2013 Pineapple. All rights reserved.
 //
 
-#import "RUNetworkRequest.h"
+#import "RNNetworkRequest.h"
 #import "RUConstants.h"
+#import "RUDLog.h"
 
-@implementation RUNetworkRequest
+
+
+
+
+@implementation RNNetworkRequest
 
 -(NSString *)description
 {
