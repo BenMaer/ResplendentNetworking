@@ -10,7 +10,15 @@
 #import "RUConstants.h"
 #import "RUDLog.h"
 
+
+
+
+
 @implementation RNJsonRequest
+
+
+
+
 
 -(void)didFinishRequestWithResponseData:(NSData *)responseData
 {
@@ -19,11 +27,11 @@
 
     if (error)
     {
-        [self didFinishRequestWithJsonResponse:jsonResponse];
+        [self didFailRequestWithError:error];
     }
     else
     {
-        [self didFailRequestWithError:error];
+        [self didFinishRequestWithJsonResponse:jsonResponse];
     }
 }
 
